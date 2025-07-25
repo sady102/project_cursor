@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Project Cursor</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(120deg, #f8fafc 0%, #e0e7ef 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 40px 24px;
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+            text-align: center;
+            margin-top: 80px;
+        }
+        h1 {
+            color: #2d3748;
+            font-size: 2.5rem;
+            margin-bottom: 16px;
+        }
+        p {
+            color: #4a5568;
+            font-size: 1.2rem;
+            margin-bottom: 32px;
+        }
+        .cta-btn {
+            background: #2563eb;
+            color: #fff;
+            padding: 14px 32px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: background 0.2s;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .cta-btn:hover {
+            background: #1e40af;
+        }
+        @media (max-width: 600px) {
+            .container {
+                margin-top: 32px;
+                padding: 24px 8px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Project Cursor</h1>
+        <p>Your modern starting point for web projects. Clean, simple, and ready to build on.</p>
+        <a href="#" class="cta-btn">Get Started</a>
+    </div>
+</body>
+</html>
